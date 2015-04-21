@@ -48,7 +48,7 @@ class forward_list
         int primeCount(forward_list<int> lst )
         {
             return primeCheck(lst.head);
-        }
+         }
         
         bool isPrime(int i);
         
