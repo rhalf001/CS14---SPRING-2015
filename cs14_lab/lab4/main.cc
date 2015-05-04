@@ -10,7 +10,23 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    int k = argv[1];
-    int n = 1;
-    coprime(1, k);
+    if(argc != 2)
+    {
+        cout << "Invalid number of arguments." << endl;
+        exit(-1);
+    }
+    int k = atoi(argv[1]);
+    
+    cout << "Pre-order: " << endl;
+	preorder(k);
+	cout << endl;
+	
+	cout << "Post-order: " << endl;
+	postorder(k);
+	cout << endl;
+	
+	cout << "In-order: " << endl;
+	inorder(k);
+	cout << endl;
+	
 }
