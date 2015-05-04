@@ -39,7 +39,7 @@ class priority_queue
 	
 void inorder_(int m, int n, int k, priority_queue& q)
 {
-	if(m + n >= k) // base case
+	if(m + n >= k)
 	{
 		return;
 	}
