@@ -1,3 +1,6 @@
+//Roger Halftermeyer
+//SID: 861143675
+//5/4/15
 #ifndef LAB5_H
 #define LAB5_H
 

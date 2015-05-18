@@ -1,3 +1,6 @@
+//Roger Halftermeyer
+//SID: 861143675
+//5/4/15
 #include "lab5.h"
 #include <iostream>
 #include <map>
